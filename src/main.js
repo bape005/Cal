@@ -8,6 +8,7 @@ const fs = require('fs');
 const pdf = require('pdf-parse');
 var address = require('address')
 
+console.log("DSDSDSADAS")
 console.log(address.ip())
 address.mac(function(err, address){
     console.log(address);
