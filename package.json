@@ -1,0 +1,22 @@
+{
+  "name": "readcal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "address": "^1.2.0",
+    "electron": "^20.0.1",
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.5.1"
+  }
+}
